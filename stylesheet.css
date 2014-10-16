@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.header {
+    width: 100%;
+    font-size: 2em;
+    font-family: Avenir Next;
+    /*background-color: #3259a3;
+    background-image: linear-gradient(#b43e3e 0%, #bc0d0d 100%);*/
+    padding-left: 2%;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+}
+

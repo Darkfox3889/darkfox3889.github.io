@@ -1,6 +1,15 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: Baskerville;  
+}
+
+h1{
+    color: #434d5b
+}
+
+h4 {
+    color: #b1b1b1;
 }
 
 .container {
@@ -11,12 +20,16 @@ html, body {
 .header {
     width: 100%;
     font-size: 2em;
-    font-family: Avenir Next;
-    /*background-color: #3259a3;
-    background-image: linear-gradient(#b43e3e 0%, #bc0d0d 100%);*/
     padding-left: 2%;
+    padding-bottom: 2%;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
     -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
     -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
 }
 
+.button {
+    margin-right: 10%;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+}

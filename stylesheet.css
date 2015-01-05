@@ -6,6 +6,10 @@ html, body {
     color: rgba(74,74,74,1);
 }
 
+a{
+    color: rgba(74,74,74,1);    
+}
+
 h1{
     color: #434d5b
 }
@@ -20,7 +24,7 @@ h4 {
 }
 
 .header {
-    max-width: 960px;
+    width: 960px;
     height: 98px;
     margin-left: auto;
     margin-right: auto;
@@ -34,18 +38,18 @@ h4 {
     box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
     border: 1px solid #747474;
     display: inline;
-    margin-top: 16px;
+    margin-top: 2%;
     margin-left: 5%;
 }
 
-.button {
+.getintouchbutton {
     width: 128px;
     height: 32px;
     font-size: 0.5em;
     text-align: center;
     line-height: 2em;
     margin-right: 5%;
-    margin-top: 30px;
+    margin-top: 4%;
     background: #FFFFFF;
     border: 1px solid #333333;
     box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
@@ -54,7 +58,7 @@ h4 {
 }
 
 .heroImage {
-    max-width: 960px;
+    width: 960px;
     height: 480px;
     margin-left: auto;
     margin-right: auto;

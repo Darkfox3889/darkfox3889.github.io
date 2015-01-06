@@ -64,7 +64,11 @@ h4 {
     height: 480px;
     box-shadow: inset 0px 1px 2px 0px #333333;
     position: relative;
+    background-color: #333333;
     background-image: -webkit-image-set(                 url(images/SunDial_Hero@1x.jpg) 1x, url(images/SunDial_Hero@2x.jpg) 2x);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     border: 1px solid #586870;
 }
 
@@ -96,7 +100,7 @@ h4 {
     
     .getintouchbutton {
         width: 348px;
-        height: 64px;
+        height: 124px;
         font-size: 2em;
     }
     
@@ -104,14 +108,15 @@ h4 {
         height: 0;
         padding-top: 124.8%;
         background-image: url(images/SunDial_Hero_Portrait.jpg); 
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
     }
     
-    .aboutDiv{
+    .aboutDiv {
         font-size: 2em;  
         padding: 5%;
+    }
+    
+    .footer {
+        font-size: 1.8em;
     }
     
 }

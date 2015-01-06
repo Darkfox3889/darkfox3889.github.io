@@ -112,7 +112,9 @@ h4 {
     }
     
     .aboutDiv{
-        font-size: 2em;   
+        font-size: 2em;  
+        height: auto;
+        padding: 5%;
     }
     
 }

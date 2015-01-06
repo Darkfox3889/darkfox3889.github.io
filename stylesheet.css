@@ -102,7 +102,9 @@ h4 {
     
     .heroImage {
         height: 936px;
-        background-image: url(images/SunDial_Hero_Portrait.jpg);    
+        background-image: url(images/SunDial_Hero_Portrait.jpg); 
+        background-position: center;
+        background-repeat: no-repeat;
     }
     
 }

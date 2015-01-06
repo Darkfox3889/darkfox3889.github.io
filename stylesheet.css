@@ -106,7 +106,7 @@ h4 {
         background-image: url(images/SunDial_Hero_Portrait.jpg); 
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
     
     .aboutDiv{

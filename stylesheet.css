@@ -86,16 +86,12 @@ h4 {
 @media only screen and (max-device-width: 750px) {
 
     .container {
-        width: 750px;
+        width: 100%;
     }
     
     #headerImage {
         width: 348px;
         height: 124px;
-/*
-        margin-top: 5%;
-        margin-left: 5%;
-*/
     }
     
     .getintouchbutton {
@@ -105,7 +101,8 @@ h4 {
     }
     
     .heroImage {
-        height: 936px;
+        height: 0;
+        padding-top: 80.12%;
         background-image: url(images/SunDial_Hero_Portrait.jpg); 
         background-position: center;
         background-repeat: no-repeat;

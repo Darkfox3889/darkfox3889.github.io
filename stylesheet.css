@@ -80,6 +80,7 @@ h4 {
     text-align: center;
 }
 
+/*iPhone formatting*/
 @media only screen and (max-device-width: 750px) {
 
     .container {
@@ -93,15 +94,16 @@ h4 {
     #headerImage {
         width: 348px;
         height: 124px;
-        box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
-        border: 1px solid #747474;
-        display: inline;
         margin-top: 5%;
         margin-left: 5%;
     }
     
+    .getintouchbutton {
+        width: 348px;
+        height: 64px;
+    }
+    
     .heroImage {
-        height: 936px;
         background-image: url(images/SunDial_Hero_Portrait.jpg); 
         background-position: center;
         background-repeat: no-repeat;

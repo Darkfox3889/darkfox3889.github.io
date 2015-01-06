@@ -101,7 +101,8 @@ h4 {
     .getintouchbutton {
         width: 348px;
         height: 124px;
-        font-size: 2em;
+        margin-top: auto;
+        font-size: 1.8em;
     }
     
     .heroImage {
@@ -117,6 +118,7 @@ h4 {
     
     .footer {
         font-size: 1.8em;
+        padding: 3%;
     }
     
 }

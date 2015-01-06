@@ -1,6 +1,5 @@
 html, body {
     margin: 0;
-    padding: 0;
     height: 100%;
     font-family: Baskerville;
     color: #1d323d;
@@ -26,10 +25,13 @@ h4 {
 }
 
 .header {
-    height: 98px;
+/*    height: 98px;*/
     font-size: 2em;
     border: 1px solid #586870 ;
     border-top: 0px;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #headerImage {
@@ -38,8 +40,10 @@ h4 {
     box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
     border: 1px solid #747474;
     display: inline;
+/*
     margin-top: 2%;
     margin-left: 5%;
+*/
 }
 
 .getintouchbutton {
@@ -48,8 +52,7 @@ h4 {
     font-size: 0.5em;
     text-align: center;
     line-height: 2em;
-    margin-right: 5%;
-    margin-top: 4%;
+    margin-top: 2%;
     background: #FFFFFF;
     border: 1px solid #333333;
     box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
@@ -66,15 +69,14 @@ h4 {
 }
 
 .aboutDiv {
-    height: auto;
-    padding 5%;
+    padding: 4%;
     text-align: center;
     font-size: 1.2em;
     border: 1px solid #586870;
 }
 
 .footer {
-    height: 56px;
+    padding: 2%;
     border: 1px solid #586870;
     border-bottom: 0px;
     text-align: center;
@@ -84,18 +86,16 @@ h4 {
 @media only screen and (max-device-width: 750px) {
 
     .container {
-        width: 100%;
-    }
-    
-    .header {
-        height: 186px;
+        width: 750px;
     }
     
     #headerImage {
         width: 348px;
         height: 124px;
+/*
         margin-top: 5%;
         margin-left: 5%;
+*/
     }
     
     .getintouchbutton {
@@ -105,6 +105,7 @@ h4 {
     }
     
     .heroImage {
+        height: 936px;
         background-image: url(images/SunDial_Hero_Portrait.jpg); 
         background-position: center;
         background-repeat: no-repeat;
@@ -113,7 +114,6 @@ h4 {
     
     .aboutDiv{
         font-size: 2em;  
-        height: auto;
         padding: 5%;
     }
     

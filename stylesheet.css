@@ -20,16 +20,14 @@ h4 {
 
 .container {
     min-height: 100%;
-    min-width: 100%;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
-    width: 960px;
     height: 98px;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 2em;
-/*    box-shadow: inset 0px 1px 2px 0px #333333;*/
     border: 1px solid #586870 ;
     border-top: 0px;
 }
@@ -60,10 +58,7 @@ h4 {
 }
 
 .heroImage {
-    width: 960px;
     height: 480px;
-    margin-left: auto;
-    margin-right: auto;
     box-shadow: inset 0px 1px 2px 0px #333333;
     position: relative;
     background-image: -webkit-image-set(                 url(images/SunDial_Hero@1x.jpg) 1x, url(images/SunDial_Hero@2x.jpg) 2x);
@@ -71,10 +66,7 @@ h4 {
 }
 
 .aboutDiv {
-    width: 960px;
     height: 156px;
-    margin-left: auto;
-    margin-right: auto;
     padding-top 64px;
     text-align: center;
     font-size: 1.2em;
@@ -82,16 +74,18 @@ h4 {
 }
 
 .footer {
-    width: 960px;
     height: 56px;
-    margin-left: auto;
-    margin-right: auto;
     border: 1px solid #586870;
+    border-bottom: 0px;
     text-align: center;
 }
 
 @media only screen and (max-device-width: 750px) {
 
+    .container {
+        width: 100%;
+    }
+    
     .header {
         height: 186px;
     }

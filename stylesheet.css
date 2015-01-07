@@ -118,8 +118,12 @@ h4 {
     }
     
     .aboutDiv {
-        font-size: 2em;  
+        font-size: 3em;  
         padding: 5%;
+    }
+    
+    .contactDiv {
+        font-size: 3em;
     }
     
     .footer {

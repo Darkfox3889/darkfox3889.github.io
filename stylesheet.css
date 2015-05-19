@@ -77,6 +77,14 @@ h4 {
     border-top: 0px;
 }
 
+.newsDiv {
+    padding: 4%;
+    text-align: left;
+    font-size: 1.2em;
+    border: 1px solid #586870;
+    border-top: 0px;
+}
+
 .contactDiv {
     padding: 4%;
     text-align: center;

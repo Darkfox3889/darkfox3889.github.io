@@ -167,6 +167,12 @@ h4 {
         font-size: 1.8em;
     }
     
+    .heroImageContainer {
+       height: 0;
+        padding-top: 124.8%; 
+        background-size: contain;
+    }
+    
     .heroImage {
         height: 0;
         padding-top: 124.8%;

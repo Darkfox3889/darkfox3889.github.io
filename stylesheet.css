@@ -151,9 +151,11 @@ h4 {
 /*iPhone formatting*/
 @media only screen and (max-device-width: 750px) {
 
+/*
     .container {
         width: 100%;
     }
+*/
     
     #headerImage {
         width: 348px;
@@ -167,11 +169,11 @@ h4 {
         font-size: 1.8em;
     }
     
+/*
     .heroImageContainer {
-       height: 0;
-        padding-top: 124.8%; 
         background-size: contain;
     }
+*/
     
     .heroImage {
         height: 0;
@@ -180,10 +182,13 @@ h4 {
         background-size: contain;
     }
     
+/*
     .whyUVDiv {
         font-size: 3em;  
         padding: 5%;
     }
+*/
+/*
     .newsDiv {
         font-size: 3em;  
         padding: 5%;
@@ -192,6 +197,7 @@ h4 {
     .contactDiv {
         font-size: 3em;
     }
+*/
     
     .footer {
         font-size: 1.8em;

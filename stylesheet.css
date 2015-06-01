@@ -6,12 +6,24 @@ html, body {
     color: #1d323d;
 }
 
-a{
+a {
     color: #1d323d;    
 }
 
-h1{
-    color: #1d323d
+h1 {
+    color: #1d323d;
+    font-weight: 200;
+    font-size: 3.4em;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 2.4em;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 1.6em;
 }
 
 h4 {
@@ -20,7 +32,8 @@ h4 {
 
 .container {
     min-height: 100%;
-    width: 960px;
+    /*width: 960px;*/
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -43,25 +56,45 @@ h4 {
     display: inline;
 }
 
-.getintouchbutton {
-    width: 128px;
-    height: 32px;
-    font-size: 0.5em;
+.Button {
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: center;
     line-height: 2em;
-    margin-top: 2%;
-    background: #FFFFFF;
+    margin-top: 8%;
+    background-color: white;
     border: 1px solid #333333;
     box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
-    display: inline;
-    float: right;
+}
+
+.featureRect {
+/*
+    margin-left: 10%;
+    margin-right: 10%;
+*/
+    text-align: left;
+    line-height: 2em;
+    margin-top: 8%;
+    background-color: transparent;
+    border-bottom: 2px solid #333333;
+/*    border-top: 2px solid #333333;*/
+}
+
+.heroImageContainer {
+    height: 400px;
+    box-shadow: inset 0px 1px 2px 0px #333333;
+    position: relative;
+    background-image: linear-gradient(-180deg, #616161 0%, #242424 50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #586870;
+    border-top: 0px;
 }
 
 .heroImage {
-    height: 480px;
+    height: 400px;
     box-shadow: inset 0px 1px 2px 0px #333333;
     position: relative;
-    background-color: #333333;
     background-image: -webkit-image-set(                 url(images/SunDial_Hero@1x.jpg) 1x, url(images/SunDial_Hero@2x.jpg) 2x);
     background-position: center;
     background-repeat: no-repeat;
@@ -69,16 +102,29 @@ h4 {
     border-top: 0px;
 }
 
-.aboutDiv {
+.whyUVDiv {
     padding: 5%;
+    padding-top: 2%;
     text-align: left;
-    font-size: 1.2em;
+/*    font-size: 1.8em;*/
     border: 1px solid #586870;
     border-top: 0px;
+    background-color: white;
+}
+
+.whySunDialDiv {
+    padding: 5%;
+    padding-top: 2%;
+    text-align: left;
+/*    font-size: 1.8em;*/
+    border: 1px solid #586870;
+    border-top: 0px;
+    background-color: white;
 }
 
 .newsDiv {
     padding: 5%;
+    padding-top: 2%;
     text-align: left;
     font-size: 1.2em;
     border: 1px solid #586870;
@@ -87,6 +133,7 @@ h4 {
 
 .contactDiv {
     padding: 5%;
+    padding-top: 2%;
     text-align: left;
     font-size: 1.2em;
     border: 1px solid #586870;
@@ -127,7 +174,7 @@ h4 {
         background-size: contain;
     }
     
-    .aboutDiv {
+    .whyUVDiv {
         font-size: 3em;  
         padding: 5%;
     }

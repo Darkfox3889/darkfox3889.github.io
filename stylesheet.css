@@ -151,6 +151,9 @@ h4 {
 /*iPhone formatting*/
 @media only screen and (max-device-width: 750px) {
 
+    html, body {
+         font-size: 2em;   
+    }
 /*
     .container {
         width: 100%;
@@ -173,6 +176,7 @@ h4 {
     
     .heroImageContainer {
         height: 1268px;
+        padding: 0%;
     }
     
     .heroImage {

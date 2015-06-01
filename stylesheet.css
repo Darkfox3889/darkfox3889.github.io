@@ -171,14 +171,12 @@ h4 {
         font-size: 1.8em;
     }
     
-/*
     .heroImageContainer {
-        background-size: contain;
+        height: 1268px;
     }
-*/
     
     .heroImage {
-    height: 1268px;
+        height: 1268px;
 /*
         height: 0;
         padding-top: 124.8%;

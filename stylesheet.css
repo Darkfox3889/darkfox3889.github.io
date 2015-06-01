@@ -156,11 +156,13 @@ h4 {
         width: 100%;
     }
 */
+/*
     
     #headerImage {
         width: 348px;
         height: 124px;
     }
+*/
     
     .getintouchbutton {
         width: 348px;
@@ -176,8 +178,10 @@ h4 {
 */
     
     .heroImage {
+/*
         height: 0;
         padding-top: 124.8%;
+*/
         background-image: url(images/SunDial_Hero_Portrait.jpg); 
         background-size: contain;
     }

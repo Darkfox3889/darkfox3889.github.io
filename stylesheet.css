@@ -152,7 +152,7 @@ h4 {
 @media only screen and (max-device-width: 750px) {
 
     html, body {
-         font-size: 2em;   
+         font-size: 1.2em;   
     }
 /*
     .container {
@@ -175,18 +175,21 @@ h4 {
     }
     
     .heroImageContainer {
-        height: 1268px;
-        padding: 0%;
+        height: 0;
+        padding-top: 99%;
+        background-image: url(images/SunDial_Hero_Portrait.jpg); 
+        background-size: contain;
     }
     
     .heroImage {
-        height: 1268px;
+        visibility: hidden;
+/*        height: 1268px;*/
 /*
         height: 0;
         padding-top: 124.8%;
-*/
         background-image: url(images/SunDial_Hero_Portrait.jpg); 
         background-size: contain;
+*/
     }
     
 /*

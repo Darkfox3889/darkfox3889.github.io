@@ -237,7 +237,7 @@ h4 {
     
     .heroImageContainer {
         height: 0;
-        padding-top: 129%;
+        padding-top: 119%;
         background-image: url(images/SunDial_Hero_Portrait.jpg); 
         background-size: contain;
     }

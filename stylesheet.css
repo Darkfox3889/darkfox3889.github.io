@@ -19,6 +19,7 @@ h1 {
 h2 {
     font-weight: 200;
     font-size: 2.4em;
+/*    display: inline;*/
 }
 
 h3 {
@@ -67,6 +68,7 @@ h4 {
 }
 
 .featureRect {
+    height: 480px;
     text-align: left;
     line-height: 2em;
     margin-top: 8%;
@@ -106,6 +108,13 @@ h4 {
     background-color: white;
 }
 
+.uvIndexImage {
+    height: 98px;
+    background-image: -webkit-image-set(url(images/UVIndex@1x.jpg) 1x, url(images/UVIndex@2x.jpg) 2x);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .whySunDialDiv {
     padding: 5%;
     padding-top: 2%;
@@ -115,6 +124,65 @@ h4 {
     background-color: white;
 }
 
+.appScreenHourly {
+    height: 480px;
+    width: 25%;
+    background-image: -webkit-image-set(url(images/Website_Features_Hourly@1x.jpg) 1x, url(images/Website_Features_Hourly@2x.jpg) 2x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline;
+    float: right;
+}
+
+.appScreenSummary {
+    height: 480px;
+    width: 25%;
+    background-image: -webkit-image-set(url(images/Website_Features_Summary@1x.jpg) 1x, url(images/Website_Features_Summary@2x.jpg) 2x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+    display: inline;
+}
+
+.watchScreen1 {
+    height: 268px;
+    width: 33%;
+    background-image: -webkit-image-set(url(images/watch_screen_hourly@1x.jpg) 1x, url(images/watch_screen_hourly@2x.jpg) 2x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+    display: inline;
+}
+
+.watchScreen2 {
+    height: 268px;
+    width: 33%;
+    background-image: -webkit-image-set(url(images/watch_screen_summary@1x.jpg) 1x, url(images/watch_screen_summary@2x.jpg) 2x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+    display: inline;
+}
+
+.watchScreen3 {
+    height: 268px;
+    width: 33%;
+    background-image: -webkit-image-set(url(images/watch_screen_glance@1x.jpg) 1x, url(images/watch_screen_glance@2x.jpg) 2x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+    display: inline;
+}
+
+.widgetScreen {
+    height: 480px;
+    width: 25%;
+    background-image: -webkit-image-set(url(images/website_features_widget@1x.jpg) 1x, url(images/website_features_widget@2x.jpg) 2x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+    display: inline;
+}
 .newsDiv {
     padding: 5%;
     padding-top: 2%;

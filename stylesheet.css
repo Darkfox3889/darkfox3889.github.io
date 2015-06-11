@@ -19,7 +19,6 @@ h1 {
 h2 {
     font-weight: 200;
     font-size: 2.4em;
-/*    display: inline;*/
 }
 
 h3 {
@@ -74,7 +73,6 @@ h4 {
     margin-top: 8%;
     background-color: transparent;
     border-bottom: 2px solid #333333;
-/*    border-top: 2px solid #333333;*/
 }
 
 .heroImageContainer {
@@ -147,7 +145,7 @@ h4 {
 .watchScreen1 {
     height: 268px;
     width: 33%;
-    background-image: -webkit-image-set(url(images/watch_screen_hourly@1x.jpg) 1x, url(images/watch_screen_hourly@2x.jpg) 2x);
+    background-image: -webkit-image-set(url(images/Watch_Screen_Hourly@1x.jpg) 1x, url(images/Watch_Screen_Hourly@2x.jpg) 2x);
     background-repeat: no-repeat;
     background-size: contain;
     float: right;
@@ -157,7 +155,7 @@ h4 {
 .watchScreen2 {
     height: 268px;
     width: 33%;
-    background-image: -webkit-image-set(url(images/watch_screen_summary@1x.jpg) 1x, url(images/watch_screen_summary@2x.jpg) 2x);
+    background-image: -webkit-image-set(url(images/Watch_Screen_Summary@1x.jpg) 1x, url(images/Watch_Screen_Summary@2x.jpg) 2x);
     background-repeat: no-repeat;
     background-size: contain;
     float: right;
@@ -167,7 +165,7 @@ h4 {
 .watchScreen3 {
     height: 268px;
     width: 33%;
-    background-image: -webkit-image-set(url(images/watch_screen_glance@1x.jpg) 1x, url(images/watch_screen_glance@2x.jpg) 2x);
+    background-image: -webkit-image-set(url(images/Watch_Screen_Glance@1x.jpg) 1x, url(images/Watch_Screen_Glance@2x.jpg) 2x);
     background-repeat: no-repeat;
     background-size: contain;
     float: right;
@@ -177,12 +175,13 @@ h4 {
 .widgetScreen {
     height: 480px;
     width: 25%;
-    background-image: -webkit-image-set(url(images/website_features_widget@1x.jpg) 1x, url(images/website_features_widget@2x.jpg) 2x);
+    background-image: -webkit-image-set(url(images/Website_Features_Widget@1x.jpg) 1x, url(images/Website_Features_Widget@2x.jpg) 2x);
     background-repeat: no-repeat;
     background-size: contain;
     float: right;
     display: inline;
 }
+
 .newsDiv {
     padding: 5%;
     padding-top: 2%;
@@ -244,13 +243,6 @@ h4 {
     
     .heroImage {
         visibility: hidden;
-/*        height: 1268px;*/
-/*
-        height: 0;
-        padding-top: 124.8%;
-        background-image: url(images/SunDial_Hero_Portrait.jpg); 
-        background-size: contain;
-*/
     }
     
 /*

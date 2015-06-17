@@ -55,9 +55,11 @@ h4 {
     display: inline;
 }
 
-.Button {
+.button {
+/*
     margin-left: 20%;
     margin-right: 20%;
+*/
     text-align: center;
     line-height: 2em;
     margin-top: 8%;

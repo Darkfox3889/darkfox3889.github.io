@@ -55,6 +55,13 @@ h4 {
     display: inline;
 }
 
+#twitterButton {
+    width: 64px;
+    height: 64px;
+    display: inline;
+    float: right;
+}
+
 .button {
 /*
     margin-left: 20%;

@@ -311,6 +311,12 @@ h4 {
         visibility: hidden;
     }
     
+    .watchFeatureRect {
+     
+        height: 620px;
+        
+    }
+    
 /*
     .whyUVDiv {
         font-size: 3em;  

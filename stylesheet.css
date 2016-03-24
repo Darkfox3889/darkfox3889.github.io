@@ -12,8 +12,20 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+    color: #F5ECA2;
+    line-height: 1.4em;
+}
+
+h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    margin-top: 2em;
+}
+
 img {
-    max-width: 10em;
+    max-width: 12em;
+    margin-top: 2em;
 }
 
 .centered {
@@ -22,6 +34,18 @@ img {
 
 .shadowed {
     text-shadow: 0px 6px 4px black;
+}
+
+.yellow {
+    color: #F5ECA2;
+}
+
+.blue {
+    color: #CCDDFF;
+}
+
+.borderYellow {
+    border-bottom: 1px solid #F5ECA2;
 }
 
 .headerBar {
@@ -48,7 +72,7 @@ img {
 
 .heroText.one {
     font-size: 6.5em;
-    margin-bottom: 0.7em; 
+    margin-bottom: 0.7em;
 }
 
 .heroText.two {
@@ -61,12 +85,12 @@ img {
 
 .heroText.four {
     font-size: 2.5em;
-    letter-spacing: 0.05em;   
+    letter-spacing: 0.05em;
 }
 
 .quote {
     font-family: 'Times New Roman', serif;
-    color: #F5ECA2;
+    font-size: 1.1em;
     line-height: 1.4em;
 }
 
@@ -74,6 +98,7 @@ img {
     font-family: 'Times New Roman', serif;
     letter-spacing: 0.08em;
     font-size: 0.8em;
+    margin-bottom: 2em;
 }
 
 .marginBlock {
@@ -120,4 +145,48 @@ img {
 
 #sunRiskIcon {
     max-width: 6em;
+    margin-top: 0;
+}
+
+#uvIntro {
+    background-image: url("images/Sun.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 18em;
+    padding-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*desktop scaling*/
+@media only screen and (max-width : 736px) {
+    .heroText.one {
+        font-size: 3.5em;
+        margin-bottom: 1em;
+    }
+
+    .heroText.two {
+        font-size: 3em;
+    }
+
+    .heroText.three {
+        font-size: 2.5em;
+    }
+
+    .heroText.four {
+        font-size: 2em;
+    }
+    
+    .subBlock.left {
+        width: 100%;
+    }
+    
+    .subBlock.right {
+        width: 100%;
+    }
+    
+    #uvIntro {
+        background-size: cover;
+    }
 }

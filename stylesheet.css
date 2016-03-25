@@ -18,14 +18,35 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
+    font-size: 1.1em;
+    line-height: 1.4em;
+/*    letter-spacing: 0.1em;*/
     margin-top: 2em;
 }
 
 img {
     max-width: 12em;
     margin-top: 2em;
+}
+
+.smallIcon {
+    max-width: 7em;
+}
+
+.fullWidth {
+    max-width: 100%;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.topPad {
+    padding-top: 2em;
+}
+
+.bottomPad {
+    padding-bottom: 4em;
 }
 
 .centered {
@@ -36,6 +57,14 @@ img {
     text-shadow: 0px 6px 4px black;
 }
 
+.red {
+    color: #E04D5F;
+}
+
+.orange {
+    color: #F5A623;
+}
+
 .yellow {
     color: #F5ECA2;
 }
@@ -44,8 +73,20 @@ img {
     color: #CCDDFF;
 }
 
+.yellowGrad{
+    background-image: linear-gradient(150deg, #393830 0%, #0A0E14 60%);
+}
+
+.blueGrad {
+    background-image: linear-gradient(150deg, #212C3A 0%, #0A0E14 60%);
+}
+
 .borderYellow {
     border-bottom: 1px solid #F5ECA2;
+}
+
+.borderBlue {
+    border-bottom: 1px solid #CCDDFF;
 }
 
 .headerBar {
@@ -56,14 +97,13 @@ img {
     text-align: center;
     padding-top: 0.4em;
     padding-bottom: 0.4em;
-    border-bottom: 1px solid #AAAAAA;
+    border-bottom: 1px solid #888888;
     box-shadow: 0px 1px 8px black;
 }
 
 .container {
     min-height: 100%;
     margin: auto;
-    padding-top: 3em;
 }
 
 .heroText {

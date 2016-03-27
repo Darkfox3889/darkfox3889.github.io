@@ -4,7 +4,7 @@ html, body {
     height: 100%;
     line-height: 1.4em;
     font-family: 'Roboto', 'Helvetica Neue', sans-serif;
-    font-size: 120%;
+    font-size: 1.1em;
     color: #FFFFFF;
     background-color: #0A0E14;
     text-rendering: optimizeLegibility;
@@ -12,16 +12,28 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 h1 {
     color: #F5ECA2;
     line-height: 1.4em;
+    max-width: 12em;
 }
 
 h2 {
     font-size: 1.1em;
     line-height: 1.4em;
-/*    letter-spacing: 0.1em;*/
+/*    letter-spacing: 0.08em;*/
     margin-top: 2em;
+}
+
+h3 {
+    font-size: 0.8em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 img {
@@ -29,8 +41,8 @@ img {
     margin-top: 2em;
 }
 
-.smallIcon {
-    max-width: 7em;
+.inline {
+    display: inline;
 }
 
 .fullWidth {
@@ -53,8 +65,24 @@ img {
     text-align: center;
 }
 
+.alignRight {
+    text-align: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
 .shadowed {
     text-shadow: 0px 6px 4px black;
+}
+
+.purple {
+    color: #C74DE0;
 }
 
 .red {
@@ -81,12 +109,26 @@ img {
     background-image: linear-gradient(150deg, #212C3A 0%, #0A0E14 60%);
 }
 
+.borderOrange {
+    border-top: 1px solid #F5A623;
+}
+
 .borderYellow {
-    border-bottom: 1px solid #F5ECA2;
+    border-top: 1px solid #F5ECA2;
 }
 
 .borderBlue {
-    border-bottom: 1px solid #CCDDFF;
+    border-top: 1px solid #CCDDFF;
+}
+
+.borderButton {
+    border: 1px solid #F5ECA2;
+    border-radius: 1em;
+    margin-left: 1em;
+}
+
+.imageTop {
+    display: inline;
 }
 
 .headerBar {
@@ -95,6 +137,7 @@ img {
     background: #0A0E14;
     opacity: 0.95;
     text-align: center;
+/*    vertical-align: middle;*/
     padding-top: 0.4em;
     padding-bottom: 0.4em;
     border-bottom: 1px solid #888888;
@@ -111,20 +154,20 @@ img {
 }
 
 .heroText.one {
-    font-size: 6.5em;
+    font-size: 6.8em;
     margin-bottom: 0.7em;
 }
 
 .heroText.two {
-    font-size: 5.5em;
+    font-size: 5.8em;
 }
 
 .heroText.three {
-    font-size: 4.5em;
+    font-size: 4.8em;
 }
 
 .heroText.four {
-    font-size: 2.5em;
+    font-size: 2.8em;
     letter-spacing: 0.05em;
 }
 
@@ -142,7 +185,7 @@ img {
 }
 
 .marginBlock {
-    max-width: 32em;
+    max-width: 36em;
     margin: auto;
     padding-left: 1.4em;
     padding-right: 1.4em;
@@ -159,16 +202,20 @@ img {
 .subBlock {
     display: inline-block;
     overflow: hidden;
+    width: 49%;
+    vertical-align: top;
 }
 
-.subBlock.left {
-    width: 49%;
-/*    background-color: beige;*/
+.subBlock p {
+    padding-right: 2em;
 }
 
-.subBlock.right {
-    width: 49%;
-/*    background-color: azure;*/
+.smallIcon {
+    max-width: 7em;
+}
+
+.headerIcon {
+    max-width: 2em;
 }
 
 #hero {
@@ -184,7 +231,7 @@ img {
 }
 
 #sunRiskIcon {
-    max-width: 6em;
+    max-width: 6.5em;
     margin-top: 0;
 }
 
@@ -194,7 +241,7 @@ img {
     background-repeat: no-repeat;
     background-size: contain;
     height: 18em;
-    padding-top: 4em;
+    padding-top: 5em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -218,11 +265,7 @@ img {
         font-size: 2em;
     }
     
-    .subBlock.left {
-        width: 100%;
-    }
-    
-    .subBlock.right {
+    .subBlock {
         width: 100%;
     }
     

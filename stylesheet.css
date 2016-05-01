@@ -41,6 +41,10 @@ img {
     margin-top: 2em;
 }
 
+.underlined {
+    text-decoration: underline;
+}
+
 .inline {
     display: inline;
 }
@@ -121,6 +125,14 @@ img {
     border-top: 1px solid #CCDDFF;
 }
 
+.borderRed {
+    border-top: 1px solid #E04D5F;
+}
+
+.borderWhite {
+    border-top: 1px solid #FFFFFF;
+}
+
 .borderButton {
     border: 1px solid #F5ECA2;
     border-radius: 1em;
@@ -142,6 +154,11 @@ img {
     padding-bottom: 0.4em;
     border-bottom: 1px solid #888888;
     box-shadow: 0px 1px 8px black;
+}
+
+.footerBar {
+    padding-bottom: 0.5em;
+    font-size: 0.6em;
 }
 
 .container {
@@ -218,6 +235,14 @@ img {
     max-width: 2em;
 }
 
+.desktopHidden {
+    visibility: hidden;
+}
+
+.mobileHidden {
+    visibility: visible;
+}
+
 #hero {
     
 }
@@ -248,6 +273,7 @@ img {
 
 /*desktop scaling*/
 @media only screen and (max-width : 736px) {
+    
     .heroText.one {
         font-size: 3.5em;
         margin-bottom: 1em;
@@ -267,6 +293,18 @@ img {
     
     .subBlock {
         width: 100%;
+    }
+    
+    .desktopHidden {
+        visibility: visible;
+    }
+    
+    .mobileHidden {
+        visibility: hidden;
+    }
+    
+    .borderButton {
+/*        margin-left: 0em;*/
     }
     
     #uvIntro {

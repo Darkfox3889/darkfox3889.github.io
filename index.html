@@ -14,14 +14,21 @@
         <title>Sun Risk - See your risk of skin damage from the sun.</title>
     </head>
     <body>
-        <div class = "headerBar">
+        <div class = "headerBar desktopHidden">
             <a href="html, body" class="button"><h3 class = "inline">Sun&nbsp;Risk</h3></a>
             |
-            <a href="html, body" class="button"><h3 class = "inline yellow">Why&nbsp;UV</h3></a>
+            <a href="https://itunes.apple.com/us/app/sundial-uv-index/id952406318?mt=8" class="button borderButton"><h3 class = "inline">GET&nbsp;THE&nbsp;APP</h3></a>
+        </div>
+        <div class = "headerBar mobileHidden">
+            <a href="html, body" class="button"><h3 class = "inline">Sun&nbsp;Risk</h3></a>
+            |
+            <a href="#whyUV" class="button"><h3 class = "inline yellow">Why&nbsp;UV</h3></a>
             -
-            <a href="#notableWorks" class="button"><h3 class = "inline blue">Features</h3></a>
+            <a href="#features" class="button"><h3 class = "inline blue">Features</h3></a>
             -
-            <a href="#contact" class="button"><h3 class = "inline orange">Use&nbsp;Sun&nbsp;Protection</h3></a>
+            <a href="#sunProtection" class="button"><h3 class = "inline orange">Use&nbsp;Sun&nbsp;Protection</h3></a>
+            |
+            <a href="#contact" class="button"><h3 class = "inline">Contact</h3></a>
             
             <a href="https://itunes.apple.com/us/app/sundial-uv-index/id952406318?mt=8" class="button borderButton"><h3 class = "inline">GET&nbsp;THE&nbsp;APP</h3></a>
         </div>
@@ -54,6 +61,7 @@
                 </div>
             </div>
             <div id = "whyUV" class = "bottomPad borderYellow">
+                <a id = "whyUV"></a>
                 <div id = "uvIntro">
                     <div class = "marginBlock centered">
                         <p class = "quote yellow">"Melanoma, the most serious form of skin cancer, is now one of the most common cancers among adolescents and young adults ages<br>15-29."</p>
@@ -79,7 +87,8 @@
                     <p>Thankfully, scientists have created the UV index. Using a simple number scale of 1&nbsp;to&nbsp;11+, the UV index shows the risk of skin damage from the sun at a given time and place. <em>Sun Risk</em> uses the UV index.</p>
                 </div>
             </div>
-            <div id = "features" class = "topPad blueGrad borderBlue">
+            <div class = "topPad blueGrad borderBlue">
+                <a id = "features"></a>
                 <div class = "marginBlock">
                     <h1 class = "blue">Here’s how <em>Sun Risk</em> shows you the risk of skin damage:</h1>
                     <div class = "subBlock left">
@@ -107,26 +116,50 @@
                     </div>
                 </div>
             </div>
-            <div class = "topPad blueGrad borderOrange">
+            <div class = "topPad bottomPad blueGrad borderOrange">
+                <a id = "sunProtection"></a>
                 <div class = "marginBlock">
                     <h1 class = "orange">Know the risk, but then actually protect yourself.</h1>
                     <div class = "subBlock left">
                     <img class = "smallIcon" src = "images/sunscreenIcon.png">
                     <h2 class = "noMargin yellow">Sunscreen</h2>
                     <p>Sunscreen provides temporary protection from harmful UV rays. However, sunscreen must be reapplied every two hours, or whenever sweat or water wash the sunscreen off.</p>
+                </div>
+                <div class = "subBlock right">
+                   <img class = "smallIcon" src = "images/sunglassesIcon.png">
+                    <h2 class = "noMargin purple">Sunglasses</h2>
+                    <p>Your eyes can be damaged and burned from UV rays just like your skin. Sunglasses that block 100% UVA + UVB are essential to protect your eyes from sun exposure.</p>
+                </div>
+                <div class = "subBlock left">
                     <img class = "smallIcon" src = "images/umbrellaIcon.png">
                     <h2 class = "noMargin red">Umbrella</h2>
                     <p>A black handheld umbrella can block over 90% of UV rays. This makes a dark-colored handheld umbrella a convenient means of personal sun protection.</p>
                 </div>
                 <div class = "subBlock right">
-                    <img class = "smallIcon" src = "images/sunglassesIcon.png">
-                    <h2 class = "noMargin purple">Sunglasses</h2>
-                    <p>Your eyes can be damaged from UV rays just like your skin. Sunglasses that block 100% UVA + UVB are essential to protect your eyes from sun exposure.</p>
-                    <img class = "smallIcon" src = "images/sunscreenIcon.png">
+                    <img class = "smallIcon" src = "images/clothingIcon.png">
                     <h2 class = "noMargin blue">Covering clothing</h2>
+                    <p>Clothing that covers your skin helps to reduce the amount of UV that reaches your skin. Long pants, long sleeve tops, and hats are all great for cutting down on UV exposure.</p>
                 </div>
                 </div>                
             </div>
+            <div class = "topPad blueGrad borderWhite">
+                <a id = "contact"></a>
+                <div class = "marginBlock bottomPad">
+                    <div class = "subBlock left">
+                    <p class = "quote">I'm Evan, the founder of Interface&nbsp;Labs, the company which designs and builds <em>Sun&nbsp;Risk</em>.
+                    <br>
+                    <br>
+                    If you have any questions, trouble with the app, or just want to chat, I'd love to hear from you!
+                    </div>
+                    <div class = "subBlock right">
+                    <h2>Email:</h2>
+                    <a href = "mailto:sunriskapp@gmail.com"><h2 class = "noMargin underlined yellow">sunriskapp@gmail.com</h2></a>
+                    <h2>Twitter:</h2>
+                    <a href = "https://twitter.com/sunriskapp"><h2 class = "noMargin underlined blue">@sunriskapp</h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class = "footerBar centered borderWhite"><p class = "quote">I.L. TWENTY SIXTEEN</p></div>
         </div>
     </body>
 </html>

@@ -1,342 +1,313 @@
 html, body {
     margin: 0;
+    padding: 0;
     height: 100%;
-    font-family: Helvetica;
-    font-weight: 200;
-    color: #1d323d;
+    line-height: 1.4em;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 1.1em;
+    color: #FFFFFF;
+    background-color: #0A0E14;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-    color: #1d323d;    
+    color: white;
+    text-decoration: none;
 }
 
 h1 {
-    color: #1d323d;
-    font-weight: 200;
-    font-size: 3.4em;
+    color: #F5ECA2;
+    line-height: 1.4em;
+    max-width: 12em;
 }
 
 h2 {
-    font-weight: 200;
-    font-size: 2.4em;
+    font-size: 1.1em;
+    line-height: 1.4em;
+/*    letter-spacing: 0.08em;*/
+    margin-top: 2em;
 }
 
 h3 {
-    font-weight: 200;
-    font-size: 1.6em;
+    font-size: 0.8em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
-h4 {
-    color: #1d323d;
+img {
+    max-width: 12em;
+    margin-top: 2em;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.inline {
+    display: inline;
+}
+
+.fullWidth {
+    max-width: 100%;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.topPad {
+    padding-top: 2em;
+}
+
+.bottomPad {
+    padding-bottom: 4em;
+}
+
+.centered {
+    text-align: center;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.shadowed {
+    text-shadow: 0px 6px 4px black;
+}
+
+.purple {
+    color: #C74DE0;
+}
+
+.red {
+    color: #E04D5F;
+}
+
+.orange {
+    color: #F5A623;
+}
+
+.yellow {
+    color: #F5ECA2;
+}
+
+.blue {
+    color: #CCDDFF;
+}
+
+.yellowGrad{
+    background-image: linear-gradient(150deg, #393830 0%, #0A0E14 60%);
+}
+
+.blueGrad {
+    background-image: linear-gradient(150deg, #212C3A 0%, #0A0E14 60%);
+}
+
+.borderOrange {
+    border-top: 1px solid #F5A623;
+}
+
+.borderYellow {
+    border-top: 1px solid #F5ECA2;
+}
+
+.borderBlue {
+    border-top: 1px solid #CCDDFF;
+}
+
+.borderRed {
+    border-top: 1px solid #E04D5F;
+}
+
+.borderWhite {
+    border-top: 1px solid #FFFFFF;
+}
+
+.borderButton {
+    border: 1px solid #F5ECA2;
+    border-radius: 1em;
+    margin-left: 1em;
+}
+
+.imageTop {
+    display: inline;
+}
+
+.headerBar {
+    width: 100%;
+    position: fixed;
+    background: #0A0E14;
+    opacity: 0.95;
+    text-align: center;
+/*    vertical-align: middle;*/
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid #888888;
+    box-shadow: 0px 1px 8px black;
+}
+
+.footerBar {
+    padding-bottom: 0.5em;
+    font-size: 0.6em;
 }
 
 .container {
     min-height: 100%;
-    width: 100%;
+    margin: auto;
+}
+
+.heroText {
+    font-family: 'Roboto Condensed';
+}
+
+.heroText.one {
+    font-size: 6.8em;
+    margin-bottom: 0.7em;
+}
+
+.heroText.two {
+    font-size: 5.8em;
+}
+
+.heroText.three {
+    font-size: 4.8em;
+}
+
+.heroText.four {
+    font-size: 2.8em;
+    letter-spacing: 0.05em;
+}
+
+.quote {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+
+.citation {
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 0.08em;
+    font-size: 0.8em;
+    margin-bottom: 2em;
+}
+
+.marginBlock {
+    max-width: 36em;
+    margin: auto;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+}
+
+.dividerBar {
+    height: 1px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.subBlock {
+    display: inline-block;
+    overflow: hidden;
+    width: 49%;
+    vertical-align: top;
+}
+
+.subBlock p {
+    padding-right: 2em;
+}
+
+.smallIcon {
+    max-width: 7em;
+}
+
+.headerIcon {
+    max-width: 2em;
+}
+
+.desktopHidden {
+    visibility: hidden;
+}
+
+.mobileHidden {
+    visibility: visible;
+}
+
+#hero {
+    
+}
+
+#heroBG {
+/*    background-color: antiquewhite;*/
+    background-image: url(images/HeroBG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#sunRiskIcon {
+    max-width: 6.5em;
+    margin-top: 0;
+}
+
+#uvIntro {
+    background-image: url("images/Sun.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 18em;
+    padding-top: 5em;
     margin-left: auto;
     margin-right: auto;
 }
 
-.header {
-    font-size: 2em;
-    border: 1px solid #586870 ;
-    border-top: 0px;
-    padding: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: left;
-}
-
-#headerImage {
-    width: 174px;
-    height: 62px;
-    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
-    border: 1px solid #747474;
-    display: inline;
-}
-
-#twitterButton {
-    width: 64px;
-    height: 64px;
-    display: inline;
-    float: right;
-}
-
-.button {
-/*
-    margin-left: 20%;
-    margin-right: 20%;
-*/
-    width: 512px;
-    padding-left: 4%;
-    text-align: left;
-    line-height: 2em;
-    margin-top: 4%;
-    background-color: white;
-    border: 1px solid #333333;
-    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
-}
-
-.buyNowButton {
-/*
-    margin-left: 20%;
-    margin-right: 20%;
-*/
-    width: 512px;
-    height: 128px;
-    text-align: center;
-    line-height: 2em;
-    margin-top: 4%;
-    border: 1px solid #333333;
-    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.50);
-    background-image: -webkit-image-set(url(images/Buy_Now_Button@1x.jpg) 1x, url(images/Buy_Now_Button@2x.jpg) 2x);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.pressKitButton {
-/*
-    margin-left: 20%;
-    margin-right: 20%;
-*/
-    width: 512px;
-    height: 64px;
-    text-align: center;
-    line-height: 2em;
-    margin-top: 4%;
-    border: 1px solid #333333;
-    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.50);
-    background-image: -webkit-image-set(url(images/PressKit_Button@1x.jpg) 1x, url(images/PressKit_Button@2x.jpg) 2x);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-.featureRect {
-    height: 480px;
-    text-align: left;
-    line-height: 2em;
-    margin-top: 8%;
-    background-color: transparent;
-    border-bottom: 2px solid #333333;
-}
-
-.watchFeatureRect {
-    height: 640px;
-    text-align: left;
-    line-height: 2em;
-    margin-top: 8%;
-    background-color: transparent;
-    border-bottom: 2px solid #333333;
-}
-
-
-.heroImageContainer {
-    height: 400px;
-    box-shadow: inset 0px 1px 2px 0px #333333;
-    position: relative;
-    background-image: linear-gradient(-180deg, #616161 0%, #242424 50%);
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 1px solid #586870;
-    border-top: 0px;
-}
-
-.heroImage {
-    height: 400px;
-    box-shadow: inset 0px 1px 2px 0px #333333;
-    position: relative;
-    background-image: -webkit-image-set(url(images/SunDial_Hero@1x.jpg) 1x, url(images/SunDial_Hero@2x.jpg) 2x);
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 1px solid #586870;
-    border-top: 0px;
-}
-
-.whyUVDiv {
-    padding: 5%;
-    padding-top: 2%;
-    text-align: left;
-    border: 1px solid #586870;
-    border-top: 0px;
-    background-color: white;
-}
-
-.uvIndexImage {
-    height: 98px;
-    background-image: -webkit-image-set(url(images/UVIndex@1x.jpg) 1x, url(images/UVIndex@2x.jpg) 2x);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.whySunDialDiv {
-    padding: 5%;
-    padding-top: 2%;
-    text-align: left;
-    border: 1px solid #586870;
-    border-top: 0px;
-    background-color: white;
-}
-
-.appScreenHourly {
-    height: 480px;
-    width: 25%;
-    background-image: -webkit-image-set(url(images/Website_Features_Hourly@1x.jpg) 1x, url(images/Website_Features_Hourly@2x.jpg) 2x);
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline;
-    float: right;
-}
-
-.appScreenSummary {
-    height: 480px;
-    width: 25%;
-    background-image: -webkit-image-set(url(images/Website_Features_Summary@1x.jpg) 1x, url(images/Website_Features_Summary@2x.jpg) 2x);
-    background-repeat: no-repeat;
-    background-size: contain;
-    float: right;
-    display: inline;
-}
-
-.watchScreen1 {
-    height: 268px;
-    width: 33%;
-    background-image: -webkit-image-set(url(images/Watch_Screen_Hourly@1x.jpg) 1x, url(images/Watch_Screen_Hourly@2x.jpg) 2x);
-    background-repeat: no-repeat;
-    background-size: contain;
-    float: right;
-    display: inline;
-}
-
-.watchScreen2 {
-    height: 268px;
-    width: 33%;
-    background-image: -webkit-image-set(url(images/Watch_Screen_Summary@1x.jpg) 1x, url(images/Watch_Screen_Summary@2x.jpg) 2x);
-    background-repeat: no-repeat;
-    background-size: contain;
-    float: right;
-    display: inline;
-}
-
-.watchScreen3 {
-    height: 268px;
-    width: 33%;
-    background-image: -webkit-image-set(url(images/Watch_Screen_Glance@1x.jpg) 1x, url(images/Watch_Screen_Glance@2x.jpg) 2x);
-    background-repeat: no-repeat;
-    background-size: contain;
-    float: right;
-    display: inline;
-}
-
-.watchScreen4 {
-    height: 268px;
-    width: 33%;
-    background-image: -webkit-image-set(url(images/Watch_Screen_Complication@1x.jpg) 1x, url(images/Watch_Screen_Complication@2x.jpg) 2x);
-    background-repeat: no-repeat;
-    background-size: contain;
-    float: right;
-    display: inline;
-}
-
-.widgetScreen {
-    height: 480px;
-    width: 25%;
-    background-image: -webkit-image-set(url(images/Website_Features_Widget@1x.jpg) 1x, url(images/Website_Features_Widget@2x.jpg) 2x);
-    background-repeat: no-repeat;
-    background-size: contain;
-    float: right;
-    display: inline;
-}
-
-.newsDiv {
-    padding: 5%;
-    padding-top: 2%;
-    text-align: left;
-    font-size: 1.2em;
-    border: 1px solid #586870;
-    border-top: 0px;
-}
-
-.contactDiv {
-    padding: 5%;
-    padding-top: 2%;
-    text-align: left;
-    font-size: 1.2em;
-    border: 1px solid #586870;
-    border-top: 0px;
-}
-
-.footer {
-    padding: 2%;
-    border: 1px solid #586870;
-    border-top: 0px;
-    text-align: center;
-    font-size: 0.8em;
-}
-
-/*iPhone formatting*/
-@media only screen and (max-device-width: 750px) {
-
-    html, body {
-         font-size: 1.2em;   
+/*desktop scaling*/
+@media only screen and (max-width : 736px) {
+    
+    .heroText.one {
+        font-size: 3.5em;
+        margin-bottom: 1em;
     }
-/*
-    .container {
+
+    .heroText.two {
+        font-size: 3em;
+    }
+
+    .heroText.three {
+        font-size: 2.5em;
+    }
+
+    .heroText.four {
+        font-size: 2em;
+    }
+    
+    .subBlock {
         width: 100%;
     }
-*/
-/*
     
-    #headerImage {
-        width: 348px;
-        height: 124px;
-    }
-*/
-    
-    .getintouchbutton {
-        width: 348px;
-        height: 124px;
-        margin-top: auto;
-        font-size: 1.8em;
+    .desktopHidden {
+        visibility: visible;
     }
     
-    .heroImageContainer {
-        height: 0;
-        padding-top: 119%;
-        background-image: url(images/SunDial_Hero_Portrait.jpg); 
-        background-size: contain;
-    }
-    
-    .heroImage {
+    .mobileHidden {
         visibility: hidden;
     }
     
-    .watchFeatureRect {
-     
-        height: 680px;
-        
+    .borderButton {
+/*        margin-left: 0em;*/
     }
     
-/*
-    .whyUVDiv {
-        font-size: 3em;  
-        padding: 5%;
+    #uvIntro {
+        background-size: cover;
     }
-*/
-/*
-    .newsDiv {
-        font-size: 3em;  
-        padding: 5%;
-    }
-    
-    .contactDiv {
-        font-size: 3em;
-    }
-*/
-    
-    .footer {
-        font-size: 1.8em;
-        padding: 3%;
-    }
-    
 }

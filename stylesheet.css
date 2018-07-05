@@ -5,20 +5,20 @@ html, body {
     line-height: 1.4em;
     font-family: 'Roboto', 'Helvetica Neue', sans-serif;
     font-size: 1.1em;
-    color: #FFFFFF;
-    background-color: #0A0E14;
+    color: #0A0E14;
+    background-color: #FFFFFF;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-    color: white;
+    color: #0A0E14;
     text-decoration: none;
 }
 
 h1 {
-    color: #F5ECA2;
+    color: #0A0E14;
     line-height: 1.4em;
     max-width: 12em;
 }
@@ -98,11 +98,11 @@ img {
 }
 
 .yellow {
-    color: #F5ECA2;
+    color: rgb(206, 187, 49);
 }
 
 .blue {
-    color: #CCDDFF;
+    color: rgb(47, 64, 97);
 }
 
 .yellowGrad{
@@ -133,8 +133,12 @@ img {
     border-top: 1px solid #FFFFFF;
 }
 
+.borderBlack {
+    border-top: 1px solid #0A0E14;
+}
+
 .borderButton {
-    border: 1px solid #F5ECA2;
+    border: 1px solid #0A0E14;
     border-radius: 1em;
     margin-left: 1em;
 }
@@ -146,7 +150,7 @@ img {
 .headerBar {
     width: 100%;
     position: fixed;
-    background: #0A0E14;
+    background: #FFFFFF;
     opacity: 0.95;
     text-align: center;
 /*    vertical-align: middle;*/
@@ -213,7 +217,7 @@ img {
     margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: #0A0E14;
 }
 
 .subBlock {

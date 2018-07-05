@@ -247,10 +247,6 @@ img {
     visibility: visible;
 }
 
-#hero {
-    
-}
-
 #heroBG {
 /*    background-color: antiquewhite;*/
     background-image: url(images/HeroBG.jpg);
@@ -305,10 +301,6 @@ img {
     
     .mobileHidden {
         visibility: hidden;
-    }
-    
-    .borderButton {
-/*        margin-left: 0em;*/
     }
     
     #uvIntro {

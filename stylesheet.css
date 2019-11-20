@@ -67,7 +67,7 @@ img {
 }
 
 .extraTopPad {
-    padding-top: 6em;
+    padding-top: 3em;
 }
 
 .bottomPad {
@@ -103,12 +103,16 @@ img {
     box-shadow: 0px 12px 16px rgba(80, 43, 3, 0.3);
 }
 
+.headerShadow {
+    box-shadow: 0px 4px 4px rgba(80, 43, 3, 0.3);
+}
+
 .purple {
     color: #C74DE0;
 }
 
 .red {
-    color: #E04D5F;
+    color: rgb(175, 53, 67);
 }
 
 .orange {
@@ -116,11 +120,11 @@ img {
 }
 
 .yellow {
-    color: #F5DC00;
+    color: rgb(109, 100, 18);
 }
 
 .blue {
-    color: rgb(112, 194, 231);
+    color: rgb(81, 140, 196);
 }
 
 .white {
@@ -167,6 +171,7 @@ img {
 
 .filledButton {
     margin-left: 1em;
+    margin-right: 1em;
     border-radius: 1em;
     background-color: #F76B1C;
     padding: 0.1em;
@@ -263,7 +268,12 @@ img {
 }
 
 .smallIcon {
-    max-width: 7em;
+    max-height: 5em;
+}
+
+.bigButton {
+    width: 60%;
+    padding-top: 1.2em;
 }
 
 .headerIcon {
@@ -280,7 +290,7 @@ img {
 
 #heroBG {
 /*    background-color: antiquewhite;*/
-    /* background-image: url(images/HeroBG_FullBleed.png); */
+    background-image: url(images/HeroBG_FullBleed_Light.png);
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -303,7 +313,7 @@ img {
     margin-right: auto;
 }
 
-/*desktop scaling*/
+/*desktop small breakpoint*/
 @media only screen and (max-width : 736px) {
     
     .heroText.one {
@@ -327,15 +337,32 @@ img {
         max-width: 100%;
     }
     
+    #uvIntro {
+        background-size: cover;
+    }
+
+}
+
+/*mobile breakpoint*/
+@media only screen and (max-device-width : 736px) {
+    
+    .topPad {
+        padding-top: 0.5em;
+    }
+
+    .extraTopPad {
+        padding-top: 0.5em;
+    }
+    
     .desktopHidden {
         visibility: visible;
     }
     
     .mobileHidden {
         visibility: hidden;
-    }
-    
-    #uvIntro {
-        background-size: cover;
+    } 
+
+    #sunRiskIcon {
+        max-width: 4.5em;
     }
 }

@@ -15,58 +15,40 @@
         <title>Sun Risk - See your risk of skin damage from the sun.</title>
     </head>
     <body>
-        <div class = "headerBar desktopHidden boxShadow">
+        <div class = "headerBar mobileHidden headerShadow">
             <a href="html, body" class="button"><h3 class = "inline">Sun&nbsp;Risk</h3></a>
-            |
-            <a href="https://itunes.apple.com/app/apple-store/id952406318?pt=111410846&ct=Sun%20Risk%20Website&mt=8" class="button filledButton"><h3 class = "inline white">Get&nbsp;the&nbsp;App</h3></a>
-        </div>
-        <div class = "headerBar mobileHidden boxShadow">
-            <a href="html, body" class="button"><h3 class = "inline">Sun&nbsp;Risk</h3></a>
-            <!--|
-            <a href="#whyUV" class="button"><h3 class = "inline yellow">Why&nbsp;UV</h3></a>
-            -
-            <a href="#features" class="button"><h3 class = "inline blue">Features</h3></a>
-            -
-            <a href="#sunProtection" class="button"><h3 class = "inline orange">Use&nbsp;Sun&nbsp;Protection</h3></a>-->
-            
-            <a href="#contact" class="button"><h3 class = "inline">Contact</h3></a>
-            |
             <a href="https://itunes.apple.com/app/apple-store/id952406318?pt=111410846&ct=Sun%20Risk%20Website&mt=8" class="button filledButton"><h3 class = "inline white">Get&nbsp;The&nbsp;App</h3></a>
+            <a href="#contact" class="button"><h3 class = "inline">Contact</h3></a>
         </div>
-        <div class = "container orangeGrad">
-            <div class="contentCard extraTopPad roundedCorners boxShadow">
-                <div class ="centered">
-                    <img id = "sunRiskIcon" src = "images/SunRiskIcon.png">
+        <div class = "container orangeGrad extraTopPad">
+            <div class="contentCard topPad roundedCorners boxShadow">
+                <div id = "" class ="centered">
                     <p class = "heroText three shadowedText orange"><b>Sunburn</b></p>
                     <p class = "heroText two shadowedText orange"><b>Skin aging</b></p>
                     <p class = "heroText one shadowedText orange"><b>Skin cancer</b></p>
                     <p class = "heroText four shadowedText orange"><b>KNOW THE RISK</b></p>
+                    <div class = "fullWidth">
+                        <img id = "sunRiskIcon" src = "images/SunRiskIcon.png">
+                    </div>
                     <img id = "heroBG" src = "images/HeroBG_FullBleed.png">
-                    <div class = "subBlock left hasPadding">
-                        <img src = "images/AppleFeaturedApp.png">
-                    </div>
-                    <div class = "subBlock right hasPadding">
-                        <a href="https://itunes.apple.com/app/apple-store/id952406318?pt=111410846&ct=Sun%20Risk%20Website&mt=8">
-                            <img src = "images/AppStore.png">
-                        </a>
-                    </div>
+                    <a href="https://itunes.apple.com/app/apple-store/id952406318?pt=111410846&ct=Sun%20Risk%20Website&mt=8">
+                        <img class="bigButton" src = "images/AppStore.svg">
+                    </a>
                 </div>
             </div> 
             <div id = "whyUV" class = "contentCard boxShadow roundedCorners">
                 <a id = "whyUV"></a>
                 <div class = "hasPadding">
                     <h1 class = "orange shadowedText topPad">
-                        <em>Sun Risk</em> shows the risk of skin damage from the&nbsp;sun.
-                        <br>
-                        Here's why:
+                        Why <em>Sun Risk</em>?
                     </h1>
                     <p>Every day, we are exposed to ultraviolet radiation (UV).<br> Unprotected exposure to UV from the sun in our daily lives is the primary cause of both skin aging and skin cancer.</p>
                     <img class = "smallIcon" src = "images/HourIcon.png">
-                    <h2 class = "red noMargin">One American dies from skin cancer every hour.</h2>
+                    <p class = "red noMargin">One American dies from skin cancer every hour.</p>
                     <img class = "smallIcon" src = "images/CancerIcon.png">
-                    <h2 class = "yellow noMargin">More than 90% of all skin cancers are caused by sun exposure.</h2>
+                    <p class = "yellow noMargin">More than 90% of all skin cancers are caused by sun exposure.</p>
                     <img class = "smallIcon" src = "images/AgingIcon.png">
-                    <h2 class = "blue noMargin">Up to 90% of skin aging is actually caused by sun exposure.</h2>
+                    <p class = "blue noMargin">Up to 90% of skin aging is actually caused by sun exposure.</p>
                 </div>
             </div>
             <div class = "contentCard roundedCorners boxShadow">
@@ -79,7 +61,7 @@
             <div class = "contentCard roundedCorners boxShadow">
                 <a id = "features"></a>
                 <div class= "hasPadding">
-                    <h1 class = "orange shadowedText topPad">Here’s how <em>Sun Risk</em> shows you the risk of skin damage:</h1>
+                    <h1 class = "orange shadowedText topPad"><em>Sun Risk</em> shows you the risk of skin damage:</h1>
                 </div>
                 <div class = "subBlock left hasPadding">
                     <img class = "smallIcon" src = "images/simpleIcon.png">
@@ -88,26 +70,15 @@
                     <img class = "smallIcon" src ="images/hourlyIcon.png">
                     <h2 class = "yellow noMargin">Down to the hour</h2>
                     <p><em>Sun Risk</em> shows the risk of skin damage down to the hour for a single day, so you can plan a sun-safe day.</p>
-                    <!-- <img class = "smallIcon" src = "images/searchIcon.png"> -->
-                    <!-- <h2 class = "orange noMargin">Multiple locations</h2>
-                    <p>In the main app, see the risk of skin damage in up to 4 other U.S. cities of your choice.</p> -->
                 </div>
                 <div class = "subBlock right hasPadding">
                     <img class = "fullWidth" src = "images/featuresPhoneApp.png">
                 </div>
-                <!-- <div class = "subBlock left hasPadding">
+                <div class = "subBlock left hasPadding">
                     <img class = "smallIcon" src = "images/widgetIcon.png">
                     <h2 class = "red noMargin">Widget and watch app included</h2>
                     <p>See the risk of skin damage right on your phone's lock screen or Apple&nbsp;Watch face.</p>
                     <img class = "fullWidth" src = "images/featuresWatches.png">
-                </div>
-                <div class = "subBlock right hasPadding">
-                    <img class = "fullWidth" src = "images/featuresPhoneWidget.png">
-                </div> -->
-                <div class = "subBlock left hasPadding">
-                    <img class = "smallIcon" src = "images/widgetIcon.png">
-                    <h2 class = "red noMargin">Handy widget included</h2>
-                    <p>See the risk of skin damage right on your phone's lock screen with the <em>Sun Risk</em> widget.</p>
                 </div>
                 <div class = "subBlock right hasPadding">
                     <img class = "fullWidth" src = "images/featuresPhoneWidget.png">
@@ -116,7 +87,7 @@
             <div class = "contentCard roundedCorners boxShadow">
                 <a id = "sunProtection"></a>
                 <div class = "hasPadding">
-                    <h1 class = "orange shadowedText topPad">Sun Risk shows you the risk. It's on you to protect yourself.</h1>
+                    <h1 class = "orange shadowedText topPad"><em>Sun Risk</em> shows you the risk. It's on you to protect yourself.</h1>
                 </div>
                 <div class = "subBlock left hasPadding">
                     <img class = "smallIcon" src = "images/sunscreenIcon.png">
@@ -145,9 +116,6 @@
                     <h1 class = "orange shadowedText topPad">Contact Me</h1>
                 </div>
                 <div class = "subBlock left hasPadding">
-                    <!-- <p class = "quote">I'm Evan, the founder of Interface&nbsp;Labs, the company which designs and builds <em>Sun&nbsp;Risk</em>.
-                    <br>
-                    <br> -->
                     <img class = "smallIcon noMargin" src = "images/mailIcon.png">
                     <p>If you have any questions, trouble with the app, or just want to chat, I'd love to hear from you!</p>
                 </div>
